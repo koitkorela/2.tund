@@ -16,3 +16,18 @@
 		echo "täisealine";
 	}
 ?>
+
+
+<?php
+// kordus kuni i on väiksem kui age
+	for($i=0; $i< $age; $i = $i + 1) {
+		echo "palju " ;
+	}
+	echo "õnne";
+?>
+
+<br>
+
+<?php
+	echo(date("l, j.m.Y"))
+?>
